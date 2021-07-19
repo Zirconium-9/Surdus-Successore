@@ -7,34 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1864494523A74AF90047CCE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864494423A74AF90047CCE8 /* AppDelegate.swift */; };
-		1864494723A74AF90047CCE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864494623A74AF90047CCE8 /* ViewController.swift */; };
-		1864494923A74AF90047CCE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1864494823A74AF90047CCE8 /* Assets.xcassets */; };
-		1864494C23A74AF90047CCE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1864494A23A74AF90047CCE8 /* Main.storyboard */; };
-		1864495723A74BBD0047CCE8 /* filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 1864495623A74BBD0047CCE8 /* filter.c */; };
-		1864495923A74C130047CCE8 /* AdvancedDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864495823A74C130047CCE8 /* AdvancedDecoder.swift */; };
-		1864495B23A74C6C0047CCE8 /* AudioCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864495A23A74C6C0047CCE8 /* AudioCapturer.swift */; };
-		1864495D23A74D330047CCE8 /* AudioAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1864495C23A74D330047CCE8 /* AudioAnalytics.swift */; };
+		096B2E012584D6E700DF74BC /* AudioCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E002584D6E700DF74BC /* AudioCapturer.swift */; };
+		096B2E022584D6E700DF74BC /* AudioCapturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E002584D6E700DF74BC /* AudioCapturer.swift */; };
+		096B2E082584D73300DF74BC /* AudioAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E072584D73300DF74BC /* AudioAnalytics.swift */; };
+		096B2E092584D73300DF74BC /* AudioAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E072584D73300DF74BC /* AudioAnalytics.swift */; };
+		096B2E0F2584D77300DF74BC /* AdvancedDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E0E2584D77300DF74BC /* AdvancedDecoder.swift */; };
+		096B2E102584D77300DF74BC /* AdvancedDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E0E2584D77300DF74BC /* AdvancedDecoder.swift */; };
+		096B2E192584D79A00DF74BC /* filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E182584D79A00DF74BC /* filter.c */; };
+		096B2E1A2584D79A00DF74BC /* filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 096B2E182584D79A00DF74BC /* filter.c */; };
+		09A80751258342D1006CC11B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A80750258342D1006CC11B /* Tests_iOS.swift */; };
+		09A8075C258342D1006CC11B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A8075B258342D1006CC11B /* Tests_macOS.swift */; };
+		09A8075E258342D1006CC11B /* SurdusDecoderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A80735258342CF006CC11B /* SurdusDecoderApp.swift */; };
+		09A8075F258342D1006CC11B /* SurdusDecoderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A80735258342CF006CC11B /* SurdusDecoderApp.swift */; };
+		09A80760258342D1006CC11B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A80736258342CF006CC11B /* ContentView.swift */; };
+		09A80761258342D1006CC11B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A80736258342CF006CC11B /* ContentView.swift */; };
+		09A80762258342D1006CC11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A80737258342D1006CC11B /* Assets.xcassets */; };
+		09A80763258342D1006CC11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A80737258342D1006CC11B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		09A8074D258342D1006CC11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A80730258342CF006CC11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A8073B258342D1006CC11B;
+			remoteInfo = "SurdusDecoder (iOS)";
+		};
+		09A80758258342D1006CC11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A80730258342CF006CC11B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A80743258342D1006CC11B;
+			remoteInfo = "SurdusDecoder (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1864494123A74AF90047CCE8 /* SurdusDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurdusDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1864494423A74AF90047CCE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1864494623A74AF90047CCE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1864494823A74AF90047CCE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1864494B23A74AF90047CCE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1864494D23A74AF90047CCE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1864494E23A74AF90047CCE8 /* SurdusDecoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SurdusDecoder.entitlements; sourceTree = "<group>"; };
-		1864495423A74BBC0047CCE8 /* SurdusDecoder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurdusDecoder-Bridging-Header.h"; sourceTree = "<group>"; };
-		1864495523A74BBD0047CCE8 /* filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
-		1864495623A74BBD0047CCE8 /* filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = filter.c; sourceTree = "<group>"; };
-		1864495823A74C130047CCE8 /* AdvancedDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedDecoder.swift; sourceTree = "<group>"; };
-		1864495A23A74C6C0047CCE8 /* AudioCapturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioCapturer.swift; sourceTree = "<group>"; };
-		1864495C23A74D330047CCE8 /* AudioAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalytics.swift; sourceTree = "<group>"; };
+		096B2E002584D6E700DF74BC /* AudioCapturer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCapturer.swift; sourceTree = "<group>"; };
+		096B2E072584D73300DF74BC /* AudioAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalytics.swift; sourceTree = "<group>"; };
+		096B2E0E2584D77300DF74BC /* AdvancedDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedDecoder.swift; sourceTree = "<group>"; };
+		096B2E152584D79A00DF74BC /* SurdusDecoder (iOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurdusDecoder (iOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		096B2E162584D79A00DF74BC /* SurdusDecoder (macOS)-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SurdusDecoder (macOS)-Bridging-Header.h"; sourceTree = "<group>"; };
+		096B2E172584D79A00DF74BC /* filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		096B2E182584D79A00DF74BC /* filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = filter.c; sourceTree = "<group>"; };
+		09A80735258342CF006CC11B /* SurdusDecoderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurdusDecoderApp.swift; sourceTree = "<group>"; };
+		09A80736258342CF006CC11B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09A80737258342D1006CC11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A8073C258342D1006CC11B /* SurdusDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurdusDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A8073F258342D1006CC11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A80744258342D1006CC11B /* SurdusDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurdusDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A80746258342D1006CC11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A80747258342D1006CC11B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		09A8074C258342D1006CC11B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A80750258342D1006CC11B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		09A80752258342D1006CC11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A80757258342D1006CC11B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A8075B258342D1006CC11B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		09A8075D258342D1006CC11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1864493E23A74AF90047CCE8 /* Frameworks */ = {
+		09A80739258342D1006CC11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80741258342D1006CC11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80749258342D1006CC11B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80754258342D1006CC11B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,78 +98,182 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1864493823A74AF90047CCE8 = {
+		09A8072F258342CF006CC11B = {
 			isa = PBXGroup;
 			children = (
-				1864494323A74AF90047CCE8 /* SurdusDecoder */,
-				1864494223A74AF90047CCE8 /* Products */,
+				09A80734258342CF006CC11B /* Shared */,
+				09A8073E258342D1006CC11B /* iOS */,
+				09A80745258342D1006CC11B /* macOS */,
+				09A8074F258342D1006CC11B /* Tests iOS */,
+				09A8075A258342D1006CC11B /* Tests macOS */,
+				09A8073D258342D1006CC11B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1864494223A74AF90047CCE8 /* Products */ = {
+		09A80734258342CF006CC11B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1864494123A74AF90047CCE8 /* SurdusDecoder.app */,
+				09A80735258342CF006CC11B /* SurdusDecoderApp.swift */,
+				09A80736258342CF006CC11B /* ContentView.swift */,
+				096B2E002584D6E700DF74BC /* AudioCapturer.swift */,
+				096B2E072584D73300DF74BC /* AudioAnalytics.swift */,
+				096B2E0E2584D77300DF74BC /* AdvancedDecoder.swift */,
+				096B2E152584D79A00DF74BC /* SurdusDecoder (iOS)-Bridging-Header.h */,
+				096B2E162584D79A00DF74BC /* SurdusDecoder (macOS)-Bridging-Header.h */,
+				096B2E172584D79A00DF74BC /* filter.h */,
+				096B2E182584D79A00DF74BC /* filter.c */,
+				09A80737258342D1006CC11B /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		09A8073D258342D1006CC11B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A8073C258342D1006CC11B /* SurdusDecoder.app */,
+				09A80744258342D1006CC11B /* SurdusDecoder.app */,
+				09A8074C258342D1006CC11B /* Tests iOS.xctest */,
+				09A80757258342D1006CC11B /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1864494323A74AF90047CCE8 /* SurdusDecoder */ = {
+		09A8073E258342D1006CC11B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1864494423A74AF90047CCE8 /* AppDelegate.swift */,
-				1864495523A74BBD0047CCE8 /* filter.h */,
-				1864495623A74BBD0047CCE8 /* filter.c */,
-				1864495A23A74C6C0047CCE8 /* AudioCapturer.swift */,
-				1864495C23A74D330047CCE8 /* AudioAnalytics.swift */,
-				1864495823A74C130047CCE8 /* AdvancedDecoder.swift */,
-				1864494623A74AF90047CCE8 /* ViewController.swift */,
-				1864494823A74AF90047CCE8 /* Assets.xcassets */,
-				1864494A23A74AF90047CCE8 /* Main.storyboard */,
-				1864494D23A74AF90047CCE8 /* Info.plist */,
-				1864494E23A74AF90047CCE8 /* SurdusDecoder.entitlements */,
-				1864495423A74BBC0047CCE8 /* SurdusDecoder-Bridging-Header.h */,
+				09A8073F258342D1006CC11B /* Info.plist */,
 			);
-			path = SurdusDecoder;
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		09A80745258342D1006CC11B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				09A80746258342D1006CC11B /* Info.plist */,
+				09A80747258342D1006CC11B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		09A8074F258342D1006CC11B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				09A80750258342D1006CC11B /* Tests_iOS.swift */,
+				09A80752258342D1006CC11B /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		09A8075A258342D1006CC11B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				09A8075B258342D1006CC11B /* Tests_macOS.swift */,
+				09A8075D258342D1006CC11B /* Info.plist */,
+			);
+			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1864494023A74AF90047CCE8 /* SurdusDecoder */ = {
+		09A8073B258342D1006CC11B /* SurdusDecoder (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1864495123A74AF90047CCE8 /* Build configuration list for PBXNativeTarget "SurdusDecoder" */;
+			buildConfigurationList = 09A80766258342D1006CC11B /* Build configuration list for PBXNativeTarget "SurdusDecoder (iOS)" */;
 			buildPhases = (
-				1864493D23A74AF90047CCE8 /* Sources */,
-				1864493E23A74AF90047CCE8 /* Frameworks */,
-				1864493F23A74AF90047CCE8 /* Resources */,
+				09A80738258342D1006CC11B /* Sources */,
+				09A80739258342D1006CC11B /* Frameworks */,
+				09A8073A258342D1006CC11B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SurdusDecoder;
-			productName = SurdusDecoder;
-			productReference = 1864494123A74AF90047CCE8 /* SurdusDecoder.app */;
+			name = "SurdusDecoder (iOS)";
+			productName = "SurdusDecoder (iOS)";
+			productReference = 09A8073C258342D1006CC11B /* SurdusDecoder.app */;
 			productType = "com.apple.product-type.application";
+		};
+		09A80743258342D1006CC11B /* SurdusDecoder (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A80769258342D1006CC11B /* Build configuration list for PBXNativeTarget "SurdusDecoder (macOS)" */;
+			buildPhases = (
+				09A80740258342D1006CC11B /* Sources */,
+				09A80741258342D1006CC11B /* Frameworks */,
+				09A80742258342D1006CC11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SurdusDecoder (macOS)";
+			productName = "SurdusDecoder (macOS)";
+			productReference = 09A80744258342D1006CC11B /* SurdusDecoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A8074B258342D1006CC11B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A8076C258342D1006CC11B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				09A80748258342D1006CC11B /* Sources */,
+				09A80749258342D1006CC11B /* Frameworks */,
+				09A8074A258342D1006CC11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A8074E258342D1006CC11B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 09A8074C258342D1006CC11B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		09A80756258342D1006CC11B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A8076F258342D1006CC11B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				09A80753258342D1006CC11B /* Sources */,
+				09A80754258342D1006CC11B /* Frameworks */,
+				09A80755258342D1006CC11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A80759258342D1006CC11B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 09A80757258342D1006CC11B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1864493923A74AF90047CCE8 /* Project object */ = {
+		09A80730258342CF006CC11B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = SJTU;
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					1864494023A74AF90047CCE8 = {
-						CreatedOnToolsVersion = 11.3;
-						LastSwiftMigration = 1130;
+					09A8073B258342D1006CC11B = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					09A80743258342D1006CC11B = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					09A8074B258342D1006CC11B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 09A8073B258342D1006CC11B;
+					};
+					09A80756258342D1006CC11B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 09A80743258342D1006CC11B;
 					};
 				};
 			};
-			buildConfigurationList = 1864493C23A74AF90047CCE8 /* Build configuration list for PBXProject "SurdusDecoder" */;
+			buildConfigurationList = 09A80733258342CF006CC11B /* Build configuration list for PBXProject "SurdusDecoder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,57 +281,112 @@
 				en,
 				Base,
 			);
-			mainGroup = 1864493823A74AF90047CCE8;
-			productRefGroup = 1864494223A74AF90047CCE8 /* Products */;
+			mainGroup = 09A8072F258342CF006CC11B;
+			productRefGroup = 09A8073D258342D1006CC11B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1864494023A74AF90047CCE8 /* SurdusDecoder */,
+				09A8073B258342D1006CC11B /* SurdusDecoder (iOS) */,
+				09A80743258342D1006CC11B /* SurdusDecoder (macOS) */,
+				09A8074B258342D1006CC11B /* Tests iOS */,
+				09A80756258342D1006CC11B /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1864493F23A74AF90047CCE8 /* Resources */ = {
+		09A8073A258342D1006CC11B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1864494923A74AF90047CCE8 /* Assets.xcassets in Resources */,
-				1864494C23A74AF90047CCE8 /* Main.storyboard in Resources */,
+				09A80762258342D1006CC11B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80742258342D1006CC11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A80763258342D1006CC11B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A8074A258342D1006CC11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80755258342D1006CC11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1864493D23A74AF90047CCE8 /* Sources */ = {
+		09A80738258342D1006CC11B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1864495923A74C130047CCE8 /* AdvancedDecoder.swift in Sources */,
-				1864495D23A74D330047CCE8 /* AudioAnalytics.swift in Sources */,
-				1864494723A74AF90047CCE8 /* ViewController.swift in Sources */,
-				1864495723A74BBD0047CCE8 /* filter.c in Sources */,
-				1864494523A74AF90047CCE8 /* AppDelegate.swift in Sources */,
-				1864495B23A74C6C0047CCE8 /* AudioCapturer.swift in Sources */,
+				09A80760258342D1006CC11B /* ContentView.swift in Sources */,
+				096B2E192584D79A00DF74BC /* filter.c in Sources */,
+				096B2E082584D73300DF74BC /* AudioAnalytics.swift in Sources */,
+				096B2E0F2584D77300DF74BC /* AdvancedDecoder.swift in Sources */,
+				096B2E012584D6E700DF74BC /* AudioCapturer.swift in Sources */,
+				09A8075E258342D1006CC11B /* SurdusDecoderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80740258342D1006CC11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A80761258342D1006CC11B /* ContentView.swift in Sources */,
+				096B2E1A2584D79A00DF74BC /* filter.c in Sources */,
+				096B2E092584D73300DF74BC /* AudioAnalytics.swift in Sources */,
+				096B2E102584D77300DF74BC /* AdvancedDecoder.swift in Sources */,
+				096B2E022584D6E700DF74BC /* AudioCapturer.swift in Sources */,
+				09A8075F258342D1006CC11B /* SurdusDecoderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80748258342D1006CC11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A80751258342D1006CC11B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A80753258342D1006CC11B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A8075C258342D1006CC11B /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		1864494A23A74AF90047CCE8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1864494B23A74AF90047CCE8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		09A8074E258342D1006CC11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A8073B258342D1006CC11B /* SurdusDecoder (iOS) */;
+			targetProxy = 09A8074D258342D1006CC11B /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+		09A80759258342D1006CC11B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A80743258342D1006CC11B /* SurdusDecoder (macOS) */;
+			targetProxy = 09A80758258342D1006CC11B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1864494F23A74AF90047CCE8 /* Debug */ = {
+		09A80764258342D1006CC11B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,6 +412,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -223,17 +437,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1864495023A74AF90047CCE8 /* Release */ = {
+		09A80765258342D1006CC11B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,6 +471,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -277,82 +490,254 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		1864495223A74AF90047CCE8 /* Debug */ = {
+		09A80767258342D1006CC11B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = SurdusDecoder/SurdusDecoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Candida.SurdusDecoder;
+				PRODUCT_NAME = SurdusDecoder;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/SurdusDecoder (iOS)-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09A80768258342D1006CC11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Candida.SurdusDecoder;
+				PRODUCT_NAME = SurdusDecoder;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/SurdusDecoder (iOS)-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A8076A258342D1006CC11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5986P8XRPT;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SurdusDecoder/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.sjtu.wunschunreif.SurdusDecoder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SurdusDecoder/SurdusDecoder-Bridging-Header.h";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Candida.SurdusDecoder;
+				PRODUCT_NAME = SurdusDecoder;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/SurdusDecoder (macOS)-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		1864495323A74AF90047CCE8 /* Release */ = {
+		09A8076B258342D1006CC11B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = SurdusDecoder/SurdusDecoder.entitlements;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 5986P8XRPT;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = SurdusDecoder/Info.plist;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.sjtu.wunschunreif.SurdusDecoder;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SurdusDecoder/SurdusDecoder-Bridging-Header.h";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Candida.SurdusDecoder;
+				PRODUCT_NAME = SurdusDecoder;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/SurdusDecoder (macOS)-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		09A8076D258342D1006CC11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Candida.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SurdusDecoder (iOS)";
+			};
+			name = Debug;
+		};
+		09A8076E258342D1006CC11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Candida.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SurdusDecoder (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A80770258342D1006CC11B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Candida.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SurdusDecoder (macOS)";
+			};
+			name = Debug;
+		};
+		09A80771258342D1006CC11B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HFQU2Y82KD;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Candida.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SurdusDecoder (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1864493C23A74AF90047CCE8 /* Build configuration list for PBXProject "SurdusDecoder" */ = {
+		09A80733258342CF006CC11B /* Build configuration list for PBXProject "SurdusDecoder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1864494F23A74AF90047CCE8 /* Debug */,
-				1864495023A74AF90047CCE8 /* Release */,
+				09A80764258342D1006CC11B /* Debug */,
+				09A80765258342D1006CC11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1864495123A74AF90047CCE8 /* Build configuration list for PBXNativeTarget "SurdusDecoder" */ = {
+		09A80766258342D1006CC11B /* Build configuration list for PBXNativeTarget "SurdusDecoder (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1864495223A74AF90047CCE8 /* Debug */,
-				1864495323A74AF90047CCE8 /* Release */,
+				09A80767258342D1006CC11B /* Debug */,
+				09A80768258342D1006CC11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A80769258342D1006CC11B /* Build configuration list for PBXNativeTarget "SurdusDecoder (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A8076A258342D1006CC11B /* Debug */,
+				09A8076B258342D1006CC11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A8076C258342D1006CC11B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A8076D258342D1006CC11B /* Debug */,
+				09A8076E258342D1006CC11B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A8076F258342D1006CC11B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A80770258342D1006CC11B /* Debug */,
+				09A80771258342D1006CC11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1864493923A74AF90047CCE8 /* Project object */;
+	rootObject = 09A80730258342CF006CC11B /* Project object */;
 }
